@@ -7245,6 +7245,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
+    - target: {fileID: 1498578362369798384, guid: f1ca0f7ab11b642628232d76b78324b9,
+        type: 3}
+      propertyPath: m_UseFullKinematicContacts
+      value: 0
+=======
     - target: {fileID: 1498578361765053176, guid: f1ca0f7ab11b642628232d76b78324b9,
         type: 3}
       propertyPath: m_Layer
@@ -7254,6 +7260,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
+>>>>>>> 89b6296ff4a6157b7defc37e3a5d5a581e29b431
       objectReference: {fileID: 0}
     - target: {fileID: 1498578362369798389, guid: f1ca0f7ab11b642628232d76b78324b9,
         type: 3}
