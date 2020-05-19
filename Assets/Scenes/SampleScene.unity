@@ -323,8 +323,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9ae7f90f7025ca44ad2ffaa8509eaa8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   followTransform: {fileID: 1838460236}
   cameraLeftBorder: {fileID: 1360006383}
   cameraRightBorder: {fileID: 1853891252}
@@ -7140,8 +7140,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5604e520f274b14dbc8ce4e09934777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   controller: {fileID: 1838460240}
   animator: {fileID: 1838460241}
   runSpeed: 25
@@ -7159,8 +7159,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd18e4ea35a21a841b761d7263a5a199, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_JumpForce: 400
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
@@ -7182,7 +7182,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument:
           m_BoolArgument: 0
         m_CallState: 1
   OnCrouchEvent:
@@ -7204,7 +7204,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -7245,12 +7245,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< HEAD
-    - target: {fileID: 1498578362369798384, guid: f1ca0f7ab11b642628232d76b78324b9,
-        type: 3}
-      propertyPath: m_UseFullKinematicContacts
-      value: 0
-=======
     - target: {fileID: 1498578361765053176, guid: f1ca0f7ab11b642628232d76b78324b9,
         type: 3}
       propertyPath: m_Layer
@@ -7260,7 +7254,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 8
->>>>>>> 89b6296ff4a6157b7defc37e3a5d5a581e29b431
       objectReference: {fileID: 0}
     - target: {fileID: 1498578362369798389, guid: f1ca0f7ab11b642628232d76b78324b9,
         type: 3}
