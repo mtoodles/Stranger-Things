@@ -6,11 +6,13 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public Animator animator;
+    public Transform spawnPoint;
 
     public float runSpeed = 25f;
     public bool hasJumpPotion = false;
     public bool hasSpeedPotion = false;
     public int potionModAmount = 0;
+    public int deathCount = 0;
 
     public AudioClip jumpClip;
 
@@ -20,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jumpFlag = false;
     bool jump = false;
-
+  
     // Update is called once per frame
     void Update()
     {
@@ -74,12 +76,29 @@ public class PlayerMovement : MonoBehaviour
     }
     void dead()
     {
-        Destroy(gameObject);
+        animator.SetTrigger("HasDied");
+        deathCount++;
+        if (deathCount == 3)
+        {
+            Destroy(gameObject);
+            deathCount = 0;
+        }
+        else
+        {
+            Respawn();
+        }
+               
+    }
+    void Respawn()
+    {
+        this.transform.position = spawnPoint.position;
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("DeathZone"))
         {
+            
             dead();
         }
 
