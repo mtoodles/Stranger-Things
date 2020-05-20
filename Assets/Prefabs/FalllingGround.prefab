@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498578361765053179}
   - component: {fileID: 1498578361765053178}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498578362014670021}
   - component: {fileID: 1498578362014670020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 1498578362369798387}
   - component: {fileID: 1498578362369798384}
   - component: {fileID: 1498578362369798385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FalllingGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,6 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea934a54becad4229829359da9af377d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundClip: {fileID: 8300000, guid: fc68840ec0d327945a5191101ae56227, type: 3}
 --- !u!50 &1498578362369798384
 Rigidbody2D:
   serializedVersion: 4
@@ -319,7 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498578362541412631}
   - component: {fileID: 1498578362541412630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498578363009349247}
   - component: {fileID: 1498578363009349246}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

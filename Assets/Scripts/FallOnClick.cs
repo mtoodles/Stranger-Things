@@ -5,9 +5,13 @@ using UnityEngine;
 public class FallOnClick : MonoBehaviour
 {
     Rigidbody2D rb;
+    public AudioClip soundClip;
+
     private void OnMouseDown()
     {
         rb.isKinematic = false;
+        AudioSource.PlayClipAtPoint(soundClip, transform.position);
+
     }
     // Start is called before the first frame update
     void Start()
