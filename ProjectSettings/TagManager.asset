@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - DeathZone
+  - NextLevel
   layers:
   - Default
   - TransparentFX
