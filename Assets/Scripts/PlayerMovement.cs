@@ -22,7 +22,8 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jumpFlag = false;
     bool jump = false;
-  
+
+
     // Update is called once per frame
     void Update()
     {
@@ -40,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (animator.GetBool("IsJumping") == false)
             {
-                AudioSource.PlayClipAtPoint(jumpClip, transform.position);
+                AudioSource.PlayClipAtPoint(jumpClip, transform.position, 10.0f);
                 jump = true;
                 animator.SetBool("IsJumping", true);
             }

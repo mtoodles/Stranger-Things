@@ -24,7 +24,7 @@ public class HealthManager : MonoBehaviour
             diff = numLives - player.GetComponent<PlayerMovement>().deathCount;
             txt.text = "" + diff;
         }
-        catch (MissingReferenceException e)
+        catch (MissingReferenceException)
         {
             txt.text = "0";
         }
