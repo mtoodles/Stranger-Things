@@ -81,7 +81,6 @@ public class PlayerMovement : MonoBehaviour
         if (deathCount == 3)
         {
             Destroy(gameObject);
-            deathCount = 0;
         }
         else
         {
