@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -22,9 +24,12 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jumpFlag = false;
     bool jump = false;
+    GameManager gm;
 
-    GameObject Death;
-
+    void Start()
+    {
+        gm = FindObjectOfType<GameManager>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -84,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
         if (deathCount == 3)
         {
             Destroy(gameObject);
-            Death.gameObject.SetActive(true);
+            gm.GameOver();
         }
         else
         {

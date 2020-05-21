@@ -8,6 +8,7 @@ TagManager:
   - NextLevel
   - music
   - UI
+  - DontDestroy
   layers:
   - Default
   - TransparentFX

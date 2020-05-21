@@ -7,11 +7,13 @@ using UnityEngine.UI;
 public class TimeManager : MonoBehaviour
 {
     public float startTime;
+    GameManager gm;
 
     private Text txt;
     // Start is called before the first frame update
     void Start()
     {
+        gm = FindObjectOfType<GameManager>();
         txt = GetComponent<Text>();
     }
 
@@ -26,6 +28,7 @@ public class TimeManager : MonoBehaviour
         else
         {
             txt.text = "0.000";
+            gm.GameOver();
         }
        
     }
