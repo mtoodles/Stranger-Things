@@ -15,4 +15,5 @@ public class SwitchActivate : MonoBehaviour
             isOn = true;
         }
     }
+
 }

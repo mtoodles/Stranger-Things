@@ -6,6 +6,8 @@ TagManager:
   tags:
   - DeathZone
   - NextLevel
+  - music
+  - UI
   layers:
   - Default
   - TransparentFX
