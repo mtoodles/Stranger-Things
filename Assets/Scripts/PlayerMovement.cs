@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
     bool jumpFlag = false;
     bool jump = false;
 
+    GameObject Death;
+
 
     // Update is called once per frame
     void Update()
@@ -82,6 +84,7 @@ public class PlayerMovement : MonoBehaviour
         if (deathCount == 3)
         {
             Destroy(gameObject);
+            Death.gameObject.SetActive(true);
         }
         else
         {
